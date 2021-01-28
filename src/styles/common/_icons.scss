@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "icons";
+	src: url('../fonts/icons.eot');
+	src: url('../fonts/icons.eot?#iefix') format('eot'),
+		url('../fonts/icons.woff2') format('woff2'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-ico01:before {
+	content: "\E001";
+}
+
+.icon-ico02:before {
+	content: "\E002";
+}
+
+.icon-ico03:before {
+	content: "\E003";
+}
+
+.icon-ico04:before {
+	content: "\E004";
+}
+
+.icon-ico05:before {
+	content: "\E005";
+}
+
+.icon-ico06:before {
+	content: "\E006";
+}
+
+.icon-ico07:before {
+	content: "\E007";
+}
+
+.icon-ico08:before {
+	content: "\E008";
+}
+
+.icon-leftArrow:before {
+	content: "\E009";
+}
+
+.icon-rightArrow:before {
+	content: "\E00A";
+}
