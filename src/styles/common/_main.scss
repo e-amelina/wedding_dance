@@ -437,7 +437,7 @@ body.lock {
     @media screen and (max-width:426px) {
         &__picture{ 
             margin-left: calc(-1 * #{$marginContainerS});
-            width:  calc( 100% + #{$marginContainerS});
+            width:  calc( 100% + #{$marginContainerS} * 2);
         }
 
         &__data {
